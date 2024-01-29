@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+int a,b,c,w,h,r;
+int  rectangle,triangle,equitriangle;
+float pi,circle,righttriangle;
+printf("Enter three numbers:\n");
+scanf("%d%d%d",&a,&b,&c);
+printf("Enter height and width:\n");
+scanf("%d%d",&w,&h);
+printf("enter radius\n");
+scanf("%d",&r);
+rectangle=2*(a+b);
+triangle=a+b+c;
+equitriangle=3*a;
+righttriangle=h+w+sqrt(w*w+h*h);
+pi=3.14;
+circle=2*pi*r;
+printf("perimeter of rectangle is %d\n",rectangle);
+printf("perimeter of general triangle is %d\n",triangle);
+printf("perimeter of equilateral triangle is %d\n",equitriangle);
+printf("perimeter of right angled triangle is %f\n",righttriangle);
+printf("perimeter of circle is %f\n",circle);
+}
