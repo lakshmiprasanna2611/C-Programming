@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,i,sum=0,count=0;
+	printf("enter the range:\n");
+	scanf("%d%d",&a,&b);
+	for(i=a;i<=b;i++){
+		if(i%5==0){
+		sum=sum+i;
+		count=count+1;
+}
+}
+printf("number of integers divisible by 5 are:%d\n",count);
+printf("sum of all integers divisible by 5 is:%d\n",sum);
+}
