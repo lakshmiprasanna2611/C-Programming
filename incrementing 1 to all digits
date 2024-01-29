@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int rem=0,sum=0;
+	int n=321;
+	while(n>0){
+		rem=n%10;
+		sum=sum+(rem+1);
+		n=n/10;
+	}
+	printf("sum of digits after incrementing +1:%d\n",sum);
+}
