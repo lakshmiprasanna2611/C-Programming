@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int b,e;
+	long double result = 1.0;
+	printf("enter base and exponent:\n");
+	scanf("%d%d",&b,&e);
+	while(e != 0){
+		result=result*b;
+		e--;
+	}
+	printf("power of a number is:%.2Lf",result);
+	return 0;
+}
